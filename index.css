@@ -10,16 +10,16 @@
 .name {
 	font-family: Montserrat;
 	font-weight: 900;
-	font-size: 50px;
+	font-size: clamp(2rem, 7vw, 50px);
 	line-height: 24px;
-	padding-bottom: 4rem;
+	padding-bottom: 1rem;
 	color: #426f88;
 }
 
 .position {
 	font-family: Montserrat;
 	font-weight: 700;
-	font-size: 35px;
+	font-size: clamp(1.1rem, 3vw, 22px);
 	line-height: 24px;
 	padding-bottom: 1rem;
 	color: #426f88;
@@ -28,7 +28,7 @@
 .introduce {
 	font-family: Montserrat;
 	font-weight: 500;
-	font-size: 25px;
+	font-size: clamp(0.95rem, 2vw, 16px);
 	line-height: 24px;
 	padding-bottom: 1rem;
 	color: #426f88;
