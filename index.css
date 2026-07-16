@@ -133,3 +133,34 @@
 .toolsHover:hover {
 	transform: scale(1.2);
 }
+
+#scrollTopBtn {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    background-color: #426f88;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 999;
+}
+
+#scrollTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%);
+}
+
+#scrollTopBtn:hover {
+    background-color: #365b6f;
+    transform: translateY(-50%) scale(1.1);
+}
