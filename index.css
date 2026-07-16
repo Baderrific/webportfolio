@@ -1,0 +1,79 @@
+#navbar {
+	background: #426f88;
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.sections {
+	font-family: Montserrat;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 24px;
+	color: white;
+}
+
+#landing {
+	background: #c9f7ff;
+}
+
+#projects {
+	background: #76a3bd;
+}
+
+#tools {
+	background: #426f88;
+}
+
+.projectsList {
+	background: #FFFFFF;
+	padding: 2rem;
+	border-radius: 20px;
+}
+
+.projectName {
+	margin-top: 2rem;
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	color: #426f88;
+}
+
+.projectDescription {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #426f88;
+}
+
+.toolsList {
+	background: #FFFFFF;
+	padding: 2rem;
+	border-radius: 20px;
+}
+
+.toolsName {
+	margin-top: 2rem;
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	color: #426f88;
+}
+
+#contact {
+	background: #76a3bd;
+}
+
+#contactbg {
+	background: #FFFFFF;
+}
+
+#footer {
+	background: #426f88;
+	color: white;
+}
